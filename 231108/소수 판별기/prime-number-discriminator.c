@@ -9,11 +9,5 @@ int main() {
     for (int i=2;i<n;i++){
         if (n%i==0) s = false;
     }
-    //printf("%c",(s=true)? 'P':'C');
-    if (s == true){
-		printf("P");
-    }
-	else
-		printf("C");
-    return 0;
+    printf("%c",(s==true)? 'P':'C');
 }
